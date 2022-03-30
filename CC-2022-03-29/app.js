@@ -1,17 +1,12 @@
-// You take your son to the forest to see the monkeys. You know that there are a certain number there (n), but your son is too young to just appreciate the full number, he has to start counting them from 1.
+// Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero digits.
 
-// As a good parent, you will sit and count with him. Given the number (n), populate an array with all numbers up to and including that number, but excluding zero.
-
-//P: number(n)
-//R: return array up to and including n and excluding zero
-//E: given 1, return [1]
-//   given 3, return [1,2,3]
-//   given 5, return [1,2,3,4,5]
-//PC: create a function that creates an array of numbers 1 to n
-function monkeyCount(n){
-    let arr = [];
-    for(let i = 1; i <= n; i++) {
-      arr.push(i);
-    }
-    return arr;
+//P: integers (n,x,y)
+//R: return boolean if n is divisible by x and y
+//E: given  n = 3, x = 1, y = 3, result true
+//   given  n = 12, x = 2, y = 6, result true
+//   given  n = 100, x = 5, y = 3, result false
+//PC: create a function to check if n is divisible by x and y and return boolean
+function isDivisible(n, x, y) {
+    return n % x === 0 && n % y === 0
 }
+  
