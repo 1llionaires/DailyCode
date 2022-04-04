@@ -9,15 +9,29 @@
 //    Given 7, should return 3
 // PC: create a conditional that returns which quarter the month belongs to
 
+// const quarterOf = (month) => {
+//     // Your code here
+//     if (month <=3){
+//         return 1
+//       }else if (month <=6 && month > 3){
+//         return 2
+//       }else if (month <=9 && month > 6){
+//         return 3
+//       }else{
+//         return 4
+//       }
+//   }
+// or
+
 const quarterOf = (month) => {
-    // Your code here
-    if (month <=3){
-        return 1
-      }else if (month <=6 && month > 3){
-        return 2
-      }else if (month <=9 && month > 6){
-        return 3
-      }else{
-        return 4
-      }
+    if (month <= 3) {
+      return 1
+    } else if (month <= 6) {
+      return 2
+    } else if (month <= 9) {
+      return 3
+    } else if (month <= 12) {
+      return 4
+    }
+    
   }
