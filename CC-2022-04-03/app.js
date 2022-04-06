@@ -25,4 +25,4 @@
         }else{
             return 'Player 2 won!'
         }
-    };
+    }
