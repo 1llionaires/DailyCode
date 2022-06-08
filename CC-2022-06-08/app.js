@@ -21,7 +21,7 @@ function findOutlier(integers){
     return odd.length === 1 ? odd[0]:even[0]; 
 }
 
-//OR 
+//OR  
 
 function findOutlier(int){
     var even = int.filter(a=>a%2==0);
