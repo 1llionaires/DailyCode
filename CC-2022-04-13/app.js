@@ -15,6 +15,5 @@ var countSheep = function(num){
     return str
 }
 
-//OR
 
-countSheep=n=>[...Array(n).keys()].map(x=>`${i} sheep...`).join
+
