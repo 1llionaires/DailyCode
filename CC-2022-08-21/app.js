@@ -12,3 +12,9 @@
 //PC: create an array constructor and fill the array to change the value of the elements of the array and join the array with hyphens in between
 const modifyMultiply = (str,loc,num) =>
    Array(num).fill(str.split(' ')[loc]).join('-')
+
+//OR
+
+function modifyMultiply (str,loc,num) {
+    return (str.split(" ")[loc]+"-").repeat(num).slice(0,-1)
+} 
