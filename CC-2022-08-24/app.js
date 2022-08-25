@@ -7,5 +7,5 @@
 //   given "This Is A Test", results "TIAT"
 //PC: create a new function that splits string into arr and map the first character of each element and join the new array into string
 function makeString(s){
-    return s.split(' ').map((arr)=>arr[0]).join('')
+    return s.split(' ').map((a)=>a[0]).join('')
 }
