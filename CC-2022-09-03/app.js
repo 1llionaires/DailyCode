@@ -18,4 +18,4 @@ Array.prototype.filter = function(func) {
     }
     
     return result;
-}
+ }
