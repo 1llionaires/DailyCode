@@ -31,4 +31,4 @@ function fizzbuzz(n){
       array.push(i)
       }
     }return array
-}
+  }
