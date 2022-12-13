@@ -18,14 +18,15 @@ function majorityElements(arr){
 
     for (const num of arr){
         elem[num] = elem[num] + 1 || 1
+        elem[num] > arr.length/2
     }
 
-    for (const n in elem){
-        if (elem[n]>count){
-            count = elem[n]
-            majElem = n
-        }
-    }return majElem
+    // for (const n in elem){
+    //     if (elem[n]>count){
+    //         count = elem[n]
+    //         majElem = n
+    //     }
+    // }return majElem
 }
 
 
