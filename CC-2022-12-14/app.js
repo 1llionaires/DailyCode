@@ -36,6 +36,7 @@ function ransomNote(note, magazine){
     for (word of noteWords){
         if(magazineHash[word]){
             magazineHash[word]--
+            if(magazineHash[word]<0) return false
         }else{
             possible = false
         }
