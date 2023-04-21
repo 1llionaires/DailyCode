@@ -8,3 +8,6 @@
 function positiveSum(arr) {
     return arr.filter(e=>e>0).reduce((a,c)=>a+c,0) 
   }
+
+
+  
